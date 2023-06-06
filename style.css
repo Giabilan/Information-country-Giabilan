@@ -38,15 +38,12 @@ img {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   transition: 0.5s;
 }
-.searchBar {
-  display: flex;
-  justify-content: space-between;
 
+.searchBar {
   background-color: #fff;
   padding: 10px;
-
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+
 input {
   width: calc(100% - 100px);
   padding: 10px;
@@ -65,19 +62,20 @@ button {
   border: 0;
 }
 
-div {
-  padding: 20px;
-  border: 1px solid #fff;
-  background-color: #fff;
-  margin: 10px 0;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  animation: identifier 0.5s ease-out;
+span {
+  color: #f85557;
 }
+
 p {
   margin-top: 5px;
 }
-span {
-  color: #f85557;
+
+div {
+  padding: 8px 14px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  margin: 10px 0;
+  animation: identifier 0.5s ease-out;
 }
 
 @keyframes identifier {

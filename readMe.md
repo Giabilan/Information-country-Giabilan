@@ -1,5 +1,10 @@
 #API_about_informations_of_a_country
 
-link of API : https://restcountries.com/
+Cette API vous donnera des informations concernant un Pays,
+les noms des pays doivent êtres saisies en Anglais.
 
-link git pages : https://giabilan.github.io/Information-country-Giabilan/
+Tout le code est commentée.
+
+lien de l'API : https://restcountries.com/
+
+lien git pages : https://giabilan.github.io/Information-country-Giabilan/
