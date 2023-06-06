@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  color: black;
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: #333;
+  color: white;
+  overflow: hidden;
+}
+main {
+  width: 450px;
+  margin: 80px 0;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  margin-top: 10px;
+  height: 250px;
+  width: 100%;
+  border-radius: 0;
+  object-fit: cover;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #fff;
+  padding: 10px;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+input {
+  width: calc(100% - 100px);
+  padding: 10px;
+  outline: 0;
+}
+
+button {
+  width: 90px;
+  cursor: pointer;
+  color: #f85557;
+  background-color: transparent;
+}
+
+input,
+button {
+  border: 0;
+}
+
+div {
+  padding: 20px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  margin: 10px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  animation: identifier 0.5s ease-out;
+}
+p {
+  margin-top: 5px;
+}
+span {
+  color: #f85557;
+}
+
+@keyframes identifier {
+  from {
+    transform: translateY(100px);
+  }
+}
